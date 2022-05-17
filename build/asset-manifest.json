@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.62294e3a.chunk.css",
+    "main.js": "/static/js/main.d6503ddd.chunk.js",
+    "main.js.map": "/static/js/main.d6503ddd.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.87770289.js",
+    "runtime-main.js.map": "/static/js/runtime-main.87770289.js.map",
+    "static/css/2.450bcdb5.chunk.css": "/static/css/2.450bcdb5.chunk.css",
+    "static/js/2.92995e34.chunk.js": "/static/js/2.92995e34.chunk.js",
+    "static/js/2.92995e34.chunk.js.map": "/static/js/2.92995e34.chunk.js.map",
+    "static/js/3.5fb7f260.chunk.js": "/static/js/3.5fb7f260.chunk.js",
+    "static/js/3.5fb7f260.chunk.js.map": "/static/js/3.5fb7f260.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.450bcdb5.chunk.css.map": "/static/css/2.450bcdb5.chunk.css.map",
+    "static/css/main.62294e3a.chunk.css.map": "/static/css/main.62294e3a.chunk.css.map",
+    "static/js/2.92995e34.chunk.js.LICENSE.txt": "/static/js/2.92995e34.chunk.js.LICENSE.txt",
+    "static/media/logo.8155eeec.png": "/static/media/logo.8155eeec.png",
+    "static/media/nft-logo.8155eeec.png": "/static/media/nft-logo.8155eeec.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.87770289.js",
+    "static/css/2.450bcdb5.chunk.css",
+    "static/js/2.92995e34.chunk.js",
+    "static/css/main.62294e3a.chunk.css",
+    "static/js/main.d6503ddd.chunk.js"
+  ]
+}

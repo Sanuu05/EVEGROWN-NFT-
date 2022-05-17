@@ -1,0 +1,148 @@
+/* .btn{
+    background-color: #ff652f;
+    background-image: none!important;
+} */
+.mycol .card{
+    background-color: rgb(22,21,26)!important;
+    /* background-color: #000000; */
+     background-image: none!important;
+    border:1px solid #fffdfd79;
+    border-radius: 10px;
+}
+.mycol .card .maincolimg{
+    height: 350px;
+    border-radius: 20px 20px 0 0;
+}
+.mycol .card .maincolimg img{
+    height: 350px;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0  !important;
+}
+.mycol .card .card-body{
+    display: flex;
+    flex-direction: column;
+    /* float: inline-start; */
+    padding: 0!important;
+}
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+.mycol .card .card-body h5{
+    font-family: 'Nunito Sans', sans-serif!important;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: whitesmoke!important;
+    padding: 5px  10px;
+    /* float: left; */
+    
+}
+.mycol .card .card-body span{
+    font-family: 'Nunito Sans', sans-serif!important;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: whitesmoke!important;
+    padding: 0px;
+    float: left;
+    
+}
+.explore-area .card{
+    background-color: rgb(42,48,64)!important;
+    margin: 0;
+    border-radius: 10px;
+    border:1px solid #eeeeee79;
+}
+.explore-area .card .image-over{
+    border-radius: 20px 20px 0 0 !important;
+    
+
+}
+.explore-area .card .image-over img{
+    border-radius: 0;
+}
+.explore-area .card .card-body{
+    /* height: 180px; */
+    padding: 0px 20px;
+    
+}
+.explore-area .card .card-body a h5{
+    font-size: 25px;
+    text-transform: capitalize;
+}
+.explore-area .card .card-body h5{
+    color: white;
+}
+.explore-area .card .card-body .card-caption a h6{
+    color: whitesmoke!important;
+}
+.item-details-area .card{
+    background-color: rgb(0, 36, 56)!important;
+    padding: 10px 5px;
+    color: white!important;
+
+}
+.item-details-area .card h4{
+    color: white!important;
+}
+.item-details-area .card span{
+    color: whitesmoke!important;
+}
+.item-details-area p{
+    color: #F6F6F2!important;
+
+}
+.item-details-area .card p{
+    color: #FF5E1A!important;
+
+}
+
+
+.item-details-area h3{
+    color: #e4edf1!important;
+
+}
+.item-details-area h6{
+    color: #ab7be2!important;
+
+}
+
+.main{
+    background-color: #000000;
+background-image: linear-gradient(147deg, #000000 0%, #04619f 74%);
+}
+.header .navbar-sticky{
+    background-color: black!important;
+    background-image: none;
+}
+.eth-price{
+    color: white!important;
+}
+.navbar-sticky{
+    background-color: black!important;
+}
+.navbar-expand .navbar-nav .nav-link:not(.btn){
+    color: white!important;
+}
+.dropdown .dropdown-menu {
+    background-color: #000000!important;
+}
+.modal-content{
+    background-color: #000000!important;
+}
+.card{
+    background-color: #16151A!important;
+    border-radius: 10px!important;
+}
+.menu .dropdown .dropdown-menu .nav-item .nav-link {
+    color: white!important;
+
+}
+input{
+    color: white!important;
+}
+.sellermid{
+    height: 80px!important;
+}
+@media (max-width: 767px){
+    body header .navbar-expand .navbar-nav.action .btn {
+        font-size: 18px!important;
+    }
+
+}

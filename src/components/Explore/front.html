@@ -1,0 +1,45 @@
+<html>
+  <head>
+    <!-- Moralis SDK code -->
+    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+    <script src="https://unpkg.com/moralis/dist/moralis.js"></script>
+  </head>
+  <body>
+    <h1>Gas Stats With Moralis</h1>
+
+    <button id="btn-login">Moralis Login</button>
+    <button id="btn-logout">Logout</button>
+
+    <script>
+      // connect to Moralis server
+      Moralis.initialize('auNhaTrwTeZBS07rT9xBXmUGFHchvkUNupW5O7h2');
+      Moralis.serverURL = "https://9glyl0ins6du.usemoralis.com:2053/server";
+
+      const GameScore = Moralis.Object.extend("GameScore");
+      const gameScore = new GameScore();
+      gameScore.set("score", 1337);
+      gameScore.set("playerName", "Sean Plott");
+      gameScore.set("cheatMode", false);
+      gameScore.save()
+      .then((gameScore) => {
+          // Execute any logic that should take place after the object is saved.
+          alert('New object created with objectId: ' + gameScore.id);
+          const query = new Moralis.Query(GameScore);
+          query.find().then((result)=>{
+              console.log(result[0].id);
+              query.get(result[0].id)
+              .then((gameScore) => {
+                   console.log(gameScore.get("score"));
+              }, (error) => {
+              // The object was not retrieved successfully.
+              // error is a Moralis.Error with an error code and message.
+              });
+          }).catch()
+      }, (error) => {
+      // Execute any logic that should take place if the save fails.
+      // error is a Moralis.Error with an error code and message.
+      alert('Failed to create new object, with error code: ' + error.message);
+      });
+    </script>
+  </body>
+</html>
